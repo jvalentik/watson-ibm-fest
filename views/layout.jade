@@ -1,0 +1,24 @@
+html(lang='en')
+  head
+    title Visual Recognition Demo
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='ct' content='#{locals.ct}')
+    meta(name='og:title' content='IBM Watson Visual Recognition')
+    meta(name='og:description' content='Visual Recognition uses deep learning algorithms to analyze images that can give you insights into your visual content. You can organize image libraries, understand an individual image, recognize food, detect faces, and create custom classifiers for specific results that are tailored to your needs.')
+    link(rel='icon', href='/images/favicon.ico', type='image/x-icon')
+    link(rel='stylesheet', href='/css/style.css')
+    link(rel='stylesheet', href='/css/training.css')
+    link(rel='stylesheet', href='/css/extra.css')
+    link(rel='stylesheet', href='/css/retraining.css')
+  body
+    div.positioning-offset
+    block content
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js', data-pace-options='{"ajax": false}')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/blueimp-file-upload/9.5.7/jquery.fileupload.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/blueimp-file-upload/9.5.7/jquery.iframe-transport.min.js')
+    script(src='/js/bundle.js')
+
