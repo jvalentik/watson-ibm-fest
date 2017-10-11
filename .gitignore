@@ -9,3 +9,4 @@ uploads/*
 .jshintignore
 .jshintrc
 delete-all.js
+!/.env.local
